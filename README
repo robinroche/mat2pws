@@ -1,0 +1,47 @@
+mat2pws
+By Robin Roche, University of Technology of Belfort-Montbéliard, France
+
+
+CONCEPT
+
+This project is a basic interface between Matlab and PowerWorld Simulator with SimAuto. 
+It is based on the documentation of PowerWorld Simulator, and extends the examples provided.
+It can be easily tested and modified.
+
+
+REQUIREMENTS
+
+To use mat2pws, you need:
+- Matlab (tested with R2011b).
+- PowerWorld Simulator with the SimAuto add-on, that provides COM connectivity. 
+
+
+SETUP
+
+I assume you already have Matlab and PowerWorld Simulator installed.
+
+1. Get the mat2pws files.
+2. Run the main.m file.
+3. The communication should then be established and data should be exchanged. You should see things displaying in the console. If not, you have a problem somewhere.
+
+
+FILES
+
+main.m: The test file for Matlab.
+ieee14.PWB: A test case created in PowerWorld Simulator. 
+
+
+USING mat2pws
+
+These file are free to use.
+I only ask you to cite one of my papers if you use it, especially for research: http://dx.doi.org/10.1109/DEXA.2012.9
+No extensive testing has been done, so use it at your own risk. 
+If you find bugs, errors, etc., or want to contribute, please let me know.
+
+
+LINKS
+
+Matlab: http://www.mathworks.com
+PowerWorld: http://www.powerworld.com/
+Also refer to PowerWorld's user manual for information on how data is structured.
+ 
