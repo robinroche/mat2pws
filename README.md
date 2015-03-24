@@ -29,9 +29,10 @@ This script is a basic interface between Matlab and PowerWorld Simulator with Si
 
 ### Using the code
 
-Matlab (tested with R2011b), as well as PowerWorld Simulator with the SimAuto add-on, that provides COM connectivity (tested with version 16) are required for using mat2pws. 
+Matlab (tested with R2011b), as well as PowerWorld Simulator (tested with version 16) with the SimAuto add-on that provides COM connectivity are required for using mat2pws. 
 
 Code use instructions are as follows:
+
 1. Get the mat2pws files.
 2. Run the main.m file.
 3. The communication should then be established and data should be exchanged. You should see things displaying in the console. If not, well, there is a problem somewhere.
